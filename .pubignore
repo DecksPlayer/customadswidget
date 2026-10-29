@@ -1,0 +1,27 @@
+# Files excluded from the package uploaded to pub.dev.
+# A .pubignore replaces .gitignore for publishing, so the usual build and
+# tool folders are listed here too.
+
+# Platform folders left over from the original app template: this is a
+# package, so they aren't needed.
+/android/
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+
+# Build and tool output
+.dart_tool/
+build/
+.flutter-plugins-dependencies
+.idea/
+*.iml
+.metadata
+pubspec.lock
+example/.dart_tool/
+example/build/
+example/.idea/
+example/*.iml
+example/.metadata
+example/pubspec.lock

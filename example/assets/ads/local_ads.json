@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "placements": {
+    "offline": {
+      "ads": [
+        {
+          "id": "local-banner",
+          "alt": "Local banner bundled as an asset",
+          "targetUrl": "https://example.com/local",
+          "assets": [
+            { "url": "assets/banners/local-728x90.png", "width": 728, "height": 90 },
+            { "url": "assets/banners/local-300x250.png", "width": 300, "height": 250 }
+          ]
+        }
+      ]
+    }
+  }
+}

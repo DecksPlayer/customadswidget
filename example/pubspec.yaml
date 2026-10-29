@@ -1,0 +1,27 @@
+name: customadswidget_example
+description: "Complete example of customadswidget for Flutter Web."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The package is used the same way any other app would use it.
+  # From git: customadswidget: { git: { url: https://github.com/DecksPlayer/customadswidget } }
+  customadswidget:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  visibility_detector: ^0.4.0+2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/banners/
+    - assets/ads/

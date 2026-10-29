@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "placements": {
+    "home_top": {
+      "rotationSeconds": 30,
+      "ads": [
+        {
+          "id": "summer-2026",
+          "alt": "Summer sale: 50% off everything",
+          "targetUrl": "https://example.com/summer",
+          "assets": [
+            { "url": "banners/summer-728x90.png", "width": 728, "height": 90 },
+            { "url": "banners/summer-320x50.png", "width": 320, "height": 50 }
+          ]
+        },
+        {
+          "id": "free-shipping",
+          "alt": "Free shipping on orders over $50",
+          "targetUrl": "https://example.com/shipping",
+          "assets": [
+            { "url": "banners/shipping-728x90.png", "width": 728, "height": 90 },
+            { "url": "banners/shipping-320x50.png", "width": 320, "height": 50 }
+          ]
+        }
+      ]
+    },
+    "home_hero": {
+      "dismissible": true,
+      "ads": [
+        {
+          "id": "fall-collection",
+          "alt": "New fall-winter collection",
+          "targetUrl": "https://example.com/collection",
+          "assets": [
+            { "url": "banners/collection-1200x300.png", "width": 1200, "height": 300 },
+            { "url": "banners/collection-600x300.png", "width": 600, "height": 300 }
+          ]
+        }
+      ]
+    },
+    "sidebar": {
+      "ads": [
+        {
+          "id": "flutter-course",
+          "alt": "Learn Flutter Web: a 4-week course",
+          "targetUrl": "https://example.com/course",
+          "assets": [
+            { "url": "banners/course-300x250.png", "width": 300, "height": 250 }
+          ]
+        },
+        {
+          "id": "expired-campaign",
+          "alt": "This banner doesn't show because its campaign ended",
+          "targetUrl": "https://example.com/old",
+          "endAt": "2025-01-01T00:00:00Z",
+          "assets": [
+            { "url": "banners/expired-300x250.png", "width": 300, "height": 250 }
+          ]
+        }
+      ]
+    },
+    "sidebar_vertical": {
+      "ads": [
+        {
+          "id": "mobile-app",
+          "alt": "Get the app",
+          "targetUrl": "https://example.com/app",
+          "assets": [
+            { "url": "banners/app-160x600.png", "width": 160, "height": 600 }
+          ]
+        }
+      ]
+    },
+    "coming_soon": {
+      "ads": [
+        {
+          "id": "black-friday-2099",
+          "alt": "Scheduled campaign: starts in 2099",
+          "startAt": "2099-11-27T00:00:00-03:00",
+          "assets": [
+            { "url": "banners/course-300x250.png", "width": 300, "height": 250 }
+          ]
+        }
+      ]
+    },
+    "blog_card": {
+      "format": "card",
+      "ads": [
+        {
+          "id": "blog-collection",
+          "title": "The new collection is online",
+          "description": "Template ad: the app builds the design from text and an image.",
+          "imageUrl": "banners/collection-600x300.png",
+          "ctaLabel": "See the collection",
+          "targetUrl": "https://example.com/collection",
+          "sponsor": "Demo Store"
+        }
+      ]
+    }
+  }
+}
